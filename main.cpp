@@ -127,10 +127,10 @@ BOOL CALLBACK DialogProcedure(HWND hwnd, UINT message, WPARAM wParam, LPARAM lPa
            case WM_CLOSE:
            case WM_DESTROY:
 				
-			   if (!player)
+			   if (player)
 				{
 					delete player;
-					player = 0;
+					player = NULL;
 				}
 			    
                 EndDialog(hwnd, TRUE);        /* send a WM_QUIT to the message queue */
