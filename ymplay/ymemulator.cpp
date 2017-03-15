@@ -1,4 +1,4 @@
-/* YMEmulator class copyright Craig Cheetham 2002 (craig_cheetham@yahoo.co.uk) 
+/* YMEmulator class copyright Craig Cheetham 2002
  * All Rights Reserved
  *
  * Description:
